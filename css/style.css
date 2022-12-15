@@ -102,6 +102,19 @@ input, select{
     margin-bottom: 0px;
 }
 
+/* --------- section-divisao --------- */
+
+.section-divisao{
+    background-color: var(--secundaria);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-divisao > h2{
+    font-weight: 500;
+}
 
 
 
