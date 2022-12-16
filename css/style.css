@@ -28,11 +28,15 @@ header{
     background-size: cover;
     background-position: left center;
     color: var(--texto-princial);
+    height: 85vh;
 }
 
-.escurecer{
+.blur{
     background-color: rgba(0, 0, 0, 0.8);
-    height: 85vh;
+    height: 100%;
+}
+
+header .blur{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -102,9 +106,9 @@ input, select{
     margin-bottom: 0px;
 }
 
-/* --------- section-divisao --------- */
+/* --------- SECTION-01 --------- */
 
-.section-divisao{
+.section-01{
     background-color: var(--secundaria);
     height: 15vh;
     display: flex;
@@ -112,10 +116,97 @@ input, select{
     align-items: center;
 }
 
-.section-divisao > h2{
+.section-01 > h2{
     font-weight: 500;
 }
 
+/* --------- SECTION-02 --------- */
+
+.section-02{
+    display: flex;
+    justify-content: space-evenly;
+    height: 470px;
+    margin: 0px 60px;
+    align-items: center;
+}
+
+.card{
+    width: 250px;
+    text-align: center;
+}
 
 
+.img-bg{
+    background-color: #95989a;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-size: cover;
 
+}
+
+.c1 > .img-bg{
+    background-image: url("../images/sqr-1.jpg");
+}
+
+.c2 > .img-bg{
+    background-image: url("../images/sqr-2.jpg");
+}
+
+.c3 > .img-bg{
+    background-image: url("../images/sqr-3.jpg");
+}
+
+.card > p{
+    margin-top: 16px ;
+}
+
+/* --------- SECTION-03 --------- */
+
+.section-03{
+    height: 400px;
+    background-image: url("../images/hrz-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: var(--texto-princial);
+}
+
+.section-03 .blur{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-location{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.bi-geo-alt-fill{
+    color: var(--primaria);
+    font-size: 60px;
+}
+
+.div-location > p{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.div-text{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.div-text > h2{
+    font-size: 2.5em;
+    color: var(--primaria);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.div-text > p {
+    line-height: 1.5em;
+}
