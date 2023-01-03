@@ -1,6 +1,6 @@
 /* --------- GERAL --------- */
 
-:root{
+:root {
     --primaria: #00baf2;
     --secundaria: #95989a;
     --texto-princial: #fff;
@@ -8,82 +8,83 @@
     --texto-terciario: #5d5d5d;
 }
 
-*{
+* {
     margin: 0px;
     font-family: "Montserrat", Helvetica, sans-serif;
 }
 
 /* --------- HEADER --------- */
 
-header{
+header {
     background-image: url("../images/hrz-5.jpg");
     background-size: cover;
     background-position: left center;
     color: var(--texto-princial);
-    height: 85vh;
 }
 
-.blur{
+.blur {
     background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
 }
 
-header .blur{
+header .blur {
+    height: 85vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.div-info{
+.div-info {
     width: 380px;
 }
 
-.div-info > h1{
+.div-info>h1 {
     font-size: 3em;
     color: var(--primaria);
     margin-bottom: 48px;
 }
 
-.div-info > h2{
+.div-info>h2 {
     font-size: 2em;
     text-transform: uppercase;
     margin-bottom: 32px;
 }
 
-.div-info > h3{
+.div-info>h3 {
     font-size: 1.2em;
     font-weight: normal;
     margin-bottom: 6px;
 }
 
-.div-info > h4{
+.div-info>h4 {
     font-size: 1.2em;
     color: var(--primaria);
 }
 
 
-.div-form{
+.div-form {
     font-weight: bold;
     background-color: var(--secundaria);
     padding: 32px;
     width: 280px;
 }
 
-.div-form > h2{
+.div-form>h2 {
     color: var(--texto-secundario);
     font-size: 1.5;
     font-weight: normal;
     margin-bottom: 24px;
 }
 
-.div-form label{
+.div-form label {
     color: var(--texto-terciario);
     display: inline-block;
     margin-bottom: 6px;
 }
 
-input, select{
+input,
+select {
     width: 100%;
     border: none;
     padding: 10px;
@@ -91,7 +92,7 @@ input, select{
     margin-bottom: 13px;
 }
 
-[type="submit"]{
+[type="submit"] {
     color: var(--texto-princial);
     background-color: var(--primaria);
     text-transform: uppercase;
@@ -100,7 +101,7 @@ input, select{
 
 /* --------- SECTION-01 --------- */
 
-.section-01{
+.section-01 {
     background-color: var(--secundaria);
     height: 15vh;
     display: flex;
@@ -108,13 +109,13 @@ input, select{
     align-items: center;
 }
 
-.section-01 > h2{
+.section-01>h2 {
     font-weight: 500;
 }
 
 /* --------- SECTION-02 --------- */
 
-.section-02{
+.section-02 {
     display: flex;
     justify-content: space-evenly;
     height: 470px;
@@ -122,13 +123,13 @@ input, select{
     align-items: center;
 }
 
-.card{
+.card {
     width: 250px;
     text-align: center;
 }
 
 
-.img-bg{
+.img-bg {
     background-color: #95989a;
     height: 250px;
     width: 250px;
@@ -137,142 +138,143 @@ input, select{
 
 }
 
-.c1 > .img-bg{
+.c1>.img-bg {
     background-image: url("../images/sqr-1.jpg");
 }
 
-.c2 > .img-bg{
+.c2>.img-bg {
     background-image: url("../images/sqr-2.jpg");
 }
 
-.c3 > .img-bg{
+.c3>.img-bg {
     background-image: url("../images/sqr-3.jpg");
 }
 
-.card > p{
-    margin-top: 16px ;
+.card>p {
+    margin-top: 16px;
 }
 
 /* --------- SECTION-03 --------- */
 
-.section-03{
-    height: 400px;
+.section-03 {
     background-image: url("../images/hrz-1.jpg");
     background-size: cover;
     background-position: center center;
     color: var(--texto-princial);
 }
 
-.section-03 .blur{
+.section-03 .blur {
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.div-location{
+.div-location {
     display: flex;
     justify-content: space-between;
     width: 300px;
 }
 
-.bi-geo-alt-fill{
+.bi-geo-alt-fill {
     color: var(--primaria);
     font-size: 60px;
 }
 
-.div-location > p{
+.div-location>p {
     text-align: center;
     font-size: 1.3em;
     font-weight: normal;
 }
 
-.div-text{
+.div-text {
     display: flex;
     flex-direction: column;
     width: 370px;
 }
 
-.div-text > h2{
+.div-text>h2 {
     font-size: 2.5em;
     color: var(--primaria);
     text-transform: uppercase;
     margin-bottom: 40px;
 }
 
-.div-text > p {
+.div-text>p {
     line-height: 1.5em;
 }
 
 /* --------- SECTION-04 --------- */
 
-.section-04{
-    margin: 60px 150px;
+.section-04 {
+    margin: 60px auto;
+    width: 1150px;
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 60px
+    row-gap: 60px
 }
 
-.img-section-04{
+.img-section-04 {
     width: 100%;
 }
 
-.div-section-04:nth-child(2) > h2{
+.div-section-04:nth-child(2)>h2 {
     font-size: 3em;
     margin-left: 80px;
 }
 
-.div-section-04:nth-child(3) > h2{
+.div-section-04:nth-child(3)>h2 {
     font-size: 2em;
     margin-left: 32px;
     margin-bottom: 32px;
     font-weight: 500;
 }
 
-.div-section-04:nth-child(3) > ul{
+.div-section-04:nth-child(3)>ul {
     padding: 0px;
     list-style-position: inside;
     margin-left: 32px;
 }
 
 
-.div-section-04:nth-child(6) > h2{
+.div-section-04:nth-child(6)>h2 {
     font-size: 2em;
     margin-left: 80px;
     margin-bottom: 32px;
     font-weight: 500;
 }
 
-.div-section-04:nth-child(6) > ul{
+.div-section-04:nth-child(6)>ul {
     padding: 0px;
     list-style-position: inside;
     margin-left: 80px;
 }
 
-/* --------- SECTION-04 --------- */
+/* --------- SECTION-05 --------- */
 
-.section-05{
+.section-05 {
     height: 300px;
     background-image: url("../images/hrz-6.jpg");
     background-size: cover;
     background-position: center center;
 }
 
-.section-05 .blur{
+.section-05 .blur {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.section-05 h2{
+.section-05 h2 {
     font-size: 2em;
     color: var(--texto-princial);
     font-weight: 500;
     margin-bottom: 38px;
 }
 
-.section-05 button{
+.section-05 button {
     background-color: var(--primaria);
     color: var(--texto-princial);
     padding: 12px;
@@ -285,7 +287,7 @@ input, select{
 
 /* --------- FOOTER --------- */
 
-footer{
+footer {
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -294,20 +296,141 @@ footer{
     color: var(--secundaria);
 }
 
-footer > h2{
+footer>h2 {
     margin-bottom: 15px;
     font-size: 1.8em;
 }
 
-footer > h3{
+footer>h3 {
     margin-bottom: 20px;
     font-size: 1.2em;
 }
 
-footer > h3 , footer > h4{
+footer>h3,
+footer>h4 {
     font-weight: 500;
 }
 
-footer span{
+footer span {
     font-weight: bold;
+}
+
+/* --------- RESPONSIVE --------- */
+
+@media screen and (max-width: 1200px) {
+
+    /* --------- SECTION-04 --------- */
+
+    .section-04 {
+        width: auto;
+        display: grid;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto;
+        row-gap: 60px
+    }
+
+    .div-section-04:first-child {
+        display: none;
+    }
+
+    .div-section-04:nth-child(2)>h2{
+        margin-left: 0px;
+    }
+
+    .div-section-04:nth-child(3)>h2 {
+        margin-left: 80px;
+    }
+    
+    .div-section-04:nth-child(3)>ul {
+        margin-left: 80px;
+    }
+
+    .div-section-04:nth-child(6){
+        grid-row-start: 4;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    /* --------- HEADER --------- */
+
+    header .blur {
+        height: auto;
+        padding: 40px 0px 40px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .div-info {
+        margin-bottom: 30px;
+    }
+
+    /* --------- SECTION-02 --------- */
+
+    .section-02 {
+        flex-direction: column;
+        height: auto;
+        padding: 30px;
+    }
+
+    .card {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    /* --------- HEADER --------- */
+
+    header .blur {       
+        padding-left: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-info{
+        width: auto;
+        margin: 0px 20px 30px 20px;
+        text-align: center;
+    }
+
+    .div-info > h3, .div-info > h4 {
+        text-align: left;
+    }
+
+    /* --------- SECTION-03 --------- */
+
+    .section-03 .blur {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .div-text{
+        width: auto;
+        order: -1;
+        text-align: center;
+    }
+
+    .div-text > p {
+        display: none;
+    }
+
+    /* --------- SECTION-05 --------- */
+
+    .section-05{
+        text-align: center;
+    }
+
+    .section-05 button{
+        width: calc(100% - 40px);
+    }
+
+    /* --------- FOOTER --------- */
+
+    footer{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
